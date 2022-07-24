@@ -1,7 +1,9 @@
+import MyFirstComponent from "./components/MyFirstComponent";
+
 function App() {
+  const name='Sam';
   return (
-    <div>
-    </div>
+    <MyFirstComponent name={name} />
   );
 }
 
